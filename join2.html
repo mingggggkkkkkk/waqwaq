@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>와쿠와쿠 회원가입</title>
+    <link rel="stylesheet" href="./css/comm.css">
+    <link rel="stylesheet" href="./css/join2.css">
+</head>
+<body>
+    <main>
+        <div class="reg_container">
+            <div class="logo_wrap">
+                <div class="logo_img"></div>
+            </div>
+            <div class="reg_form">
+                <form action="#">
+                    <ul>
+                        <li>
+                            <div class="ico_wrap">
+                                <div id="id_ico"></div>
+                            </div>
+                            <input type="text" placeholder="아이디">
+                        </li>
+                        <li>
+                            <div class="ico_wrap">
+                                <div id="pw_ico"></div>
+                            </div>
+                            <input type="password" placeholder="비밀번호">
+                            <div id="hide_ico"></div>
+                            <div id="show_ico"></div>
+                        </li>
+                        <li>
+                            <div class="ico_wrap">
+                                <div id="email_ico"></div>
+                            </div>
+                            <input type="text" placeholder="[선택] 이메일주소 (비밀번호 찾기 등 본인 확인용)">
+    
+                        </li>
+                        <li>
+                            <div class="ico_wrap">
+                                <div id="phone_ico"></div>
+                            </div>
+                            <input type="text" placeholder="휴대전화번호">
+                        </li>
+                    </ul>
+                    <div class="chk_wrap">
+                        <input type="checkbox" id="chk_input">
+                        <label for="chk_input"><span class="tc_pnk">[필수] <span>인증 약관 전체 동의</span></span></label>
+                    </div>
+                    <input type="submit" value="인증요청" id="auth_btn">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
