@@ -1,0 +1,196 @@
+#filter {
+    width: 100%;
+    height: 205vh;
+    background-color: white;
+    /* padding-left: 5%; */
+    text-align: center;
+}
+
+.filterWrap {
+    width: 100%;
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.filterLineContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 0px; 
+}
+
+.filterWrap li {
+    height: 40px;
+    border: 1px solid #FF005C;
+    border-radius: calc(100vw * (20 / 1920));
+    text-align: center;
+    line-height: 40px;
+    margin: 3px;
+    
+}
+
+.filterWrap div a {
+    color: #FF005C;
+}
+
+.filterWrap li:nth-of-type(1) {
+    width: 110px;
+}
+
+.filterWrap li:nth-child(2) {
+    width: 140px;
+}
+
+.filterWrap li:nth-child(3) {
+    width: 140px;
+}
+
+.filterWrap li:nth-child(4) {
+    width: 110px;
+}
+
+.filterWrap li:nth-child(5) {
+    width: 140px;
+}
+
+.filterWrap li:nth-child(6) {
+    width: 180px;
+}
+
+.filterWrap li:nth-child(7) {
+    width: 140px;
+}
+
+.filterWrap li:nth-child(8) {
+    width: 140px;
+}
+
+.filterWrap li:nth-child(9) {
+    width: 180px;
+}
+
+.filterWrap li:nth-child(10) {
+    width: 140px;
+}
+
+.filterWrap li:nth-child(11) {
+    width: 110px;
+}
+
+.filterWrap li:nth-child(12) {
+    width: 140px;
+}
+
+.filterWrap li:nth-child(13) {
+    width: 140px;
+}
+
+.filterWrap li:nth-child(14) {
+    width: 140px;
+}
+
+.filterWrap li:nth-child(15) {
+    width: 140px;
+}
+
+.filterWrap li:nth-child(16) {
+    width: 180px;
+}
+
+.filterWrap li:nth-child(17) {
+    width: 140px;
+}
+
+.filterWrap li:nth-child(18) {
+    width: 110px;
+}
+
+.filterWrap li:nth-child(19) {
+    width: 140px;
+}
+
+.filterWrap li:nth-child(20) {
+    width: 140px;
+}
+
+.filterWrap li:nth-child(21) {
+    width: 110px;
+}
+
+#filter div > p {
+    display: inline-block; 
+    margin: 0 30px; 
+    
+}
+.filterText {
+    display: inline-block;
+    position: relative;
+    margin-top: 7%;
+    
+}
+.filterText::before {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 15px; 
+    background-color: black; 
+}
+
+.filterWrap .filterLineContainer li:hover {
+    background-color: #FF005C;
+    color: white;
+}
+
+.filterWrap .filterLineContainer li:hover a {
+    color: white; 
+}
+.filterWrap .filterLine1 { 
+    transform: translateX(-130px); 
+}
+.filterWrap .filterLine2 {
+    transform: translateX(80px); 
+}
+.filterWrap .filterLine3 {
+    transform: translateX(-50px); 
+}
+
+#filterMore {
+    margin: 5% auto 0;
+    width: 180px;
+    height: 50px;
+    background-color: #FF005C;
+    border-radius: calc(100vw * (20 / 1920));
+    text-align: center;
+    line-height: 50px;
+    
+}
+#filterMore a{
+    color: white;
+}
+.gridContainer {
+    position: relative;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: calc(100vw * (16 / 1920));
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.gridItem{
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    position: relative;
+}
+.gridItem::after{
+    content: url(../image/main/rang.png);
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
