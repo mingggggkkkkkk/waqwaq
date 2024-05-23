@@ -62,6 +62,7 @@
 #snb{
     width: calc(100vw * (400 / 1920));
     height: 100vh;
+    /* position: relative; */
 
     position: absolute;
     left: 0;
@@ -69,7 +70,13 @@
     padding-left: calc(100vw * (185 / 1920));
     padding-top: calc(100vw * (150 / 1920));
 
-    border-right: 1px solid #D9D9D9;
+    /* border-right: 1px solid #D9D9D9; */
+}
+#snb::after{
+    content: '';
+    position: absolute;
+    top: -80px;
+    right: 0;
 }
 #snb ul{
     width: calc(100vw * (150 / 1920));
