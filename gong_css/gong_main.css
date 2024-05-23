@@ -1,0 +1,35 @@
+#main {
+    width: 80%;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: calc(100vw * (500/ 1920));
+    padding-top: calc(100vw * (150 / 1920));
+}
+#main h2 {
+    text-align: left;
+    padding-bottom: 20px;
+}
+#main .notice {
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+#main .notice li{
+    padding: 10px;
+}
+#main .notice li:not(:last-child) {
+    border-bottom: 1px dotted #D9D9D9;
+}
+#main .notice a span {
+    font-weight: 900;
+    color: #FF005C;
+    padding-right: 30px;
+}
+#main .color2{
+    color: #7a7a7a;
+    margin-left: 50PX;
+}
+#main .num li {
+    justify-content: space-evenly;
+}
