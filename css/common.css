@@ -20,6 +20,7 @@ body, h1, h2, h3, h4, p, a, ul, li, nav, dl, dt, dd, small, input, div{
     text-decoration: none;
     list-style: none;
     color: black;
+    font-family: "GS";
 }
 .hidden{
     position: absolute;
@@ -33,3 +34,4 @@ body, h1, h2, h3, h4, p, a, ul, li, nav, dl, dt, dd, small, input, div{
     white-space: nowrap;
     overflow: hidden;
 }
+address { font-style: normal; }
